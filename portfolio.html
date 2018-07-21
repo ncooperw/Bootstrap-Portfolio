@@ -6,19 +6,29 @@
 
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href=assets/css/reset.css>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
         crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Amiri|Galada" rel="stylesheet">
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/solar/bootstrap.min.css">
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous"> -->
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-dark bg-dark">
         <div class="container">
-            <div class="page-header text-light bg-info logo">
-                <h1 class="Text-sm-center">Nicole
-                    <br>Cooper-White</h1>
+            <div class="page-header text-light bg-dark logo">
+                <h1 class="Text-center">Nicole Cooper-White</h1>
             </div>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
@@ -31,72 +41,105 @@
                     <a class="nav-link active" href="contact.html">Contact</a>
                 </li>
             </ul>
+        </div>
     </nav>
-    </div>
+
     <!--Main Container-->
-    <div class="container bg-light mt-3">
-        <div class="row ">
-            <div class="col-md-12">
-                <h2 class="text-secondary text-monospace">Portfolio</h2>
+    <div class="container bg-secondary mt-3">
+        <div class="row">
+            <div class="col-md-12 card-header">
+                <h2 class="text-danger page-title">Portfolio</h2>
                 <hr>
             </div>
 
         </div>
-        <div class="row form-group">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <div class="card bg-dark  img-fluid">
+        <div class="row card-group">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="card bg-dark mb-3 project-card">
                     <a href="https://ncooperw.github.io/Project-1/index1.html">
-                        <img class="card-img" src="assets/images/Colfax Things.PNG" alt="Project 1">
-                        <div class="card-img-overlay">
-                            <h5 class="card-title text-white bg-info">Colfax Thangs</h5>
+                        <div class="card-header">
+
+                            <h5 class="card-title project-title">Colfax Thangs</h5>
+
+                        </div>
+                        <div class="card-body img-responsive">
+
+                            <img class="card-img" src="assets/images/Colfax Things.PNG" alt="Project 1">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="card bg-dark mb-3 project-card">
+                    <a href="https://ncooperw.github.io/Travel_GifTastic/">
+                        <div class="card-header">
+
+                            <h5 class="card-title project-title">Travel GifTastic</h5>
+                        </div>
+                        <div class="card-body img-fluid">
+
+                            <img class="card-img" src="assets/images/travelGiftastic.PNG" alt="Project 4">
+
                         </div>
                     </a>
                 </div>
 
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <div class="card bg-dark  img-fluid">
-                    <a href="https://ncooperw.github.io/TrainScheduler">
-                    <img class="card-img" src="assets/images/TrainScheduler.PNG" alt="Project 2">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title text-white bg-info">Train Scheduler</h5>
-                    </div>
-                    </a>
-                </div>
-            </div>
 
-        </div>
 
-        <div class="row form-group">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <div class="card bg-dark  img-fluid">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="card bg-dark mb-3 project-card">
                     <a href="https://ncooperw.github.io/TriviaGame/">
-                    <img class="card-img" src="assets/images/avengersTrivia.PNG" alt="Project 3">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title text-white bg-info">Avenger's Trivia</h5>
-                    </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <div class="card bg-dark  img-fluid">
-                    <a href="https://ncooperw.github.io/Travel_GifTastic/">
-                    <img class="card-img" src="assets/images/travelGiftastic.PNG" alt="Project 4">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title text-white bg-info">Travel GifTastic</h5>
-                    </div>
+
+                        <div class="card-header">
+
+                            <h5 class="card-title project-title">Avenger's Trivia</h5>
+
+                        </div>
+                        <div class="card-body img-fluid">
+
+                            <img class="card-img" src="assets/images/avengersTrivia.PNG" alt="Project 3">
+
+                        </div>
                     </a>
                 </div>
             </div>
         </div>
-        <div class="row form-group">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <div class="card bg-dark  img-fluid">
+
+        <div class="row card-group">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="card bg-dark mb-3 project-card">
+
+                    <a href="https://ncooperw.github.io/TrainScheduler">
+                        <div class="card-header">
+
+                            <h5 class="card-title project-title">Train Scheduler</h5>
+
+                        </div>
+                        <div class="card bg-dark  img-fluid">
+
+                            <img class="card-img" src="assets/images/TrainScheduler.PNG" alt="Project 2">
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="card bg-dark mb-3 project-card">
                     <a href="https://ncooperw.github.io/Crystal_Collector/">
-                    <img class="card-img" src="assets/images/crystalCollector.PNG" alt="Project 5">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title text-white bg-info">Crystal Collector</h5>
-                    </div>
+
+
+                        <div class="card-header">
+
+                            <h5 class="card-title project-title">Crystal Collector</h5>
+
+                        </div>
+                        <div class="card bg-dark  img-fluid">
+
+                            <img class="card-img" src="assets/images/crystalCollector.PNG" alt="Project 5">
+
+
+                        </div>
                     </a>
                 </div>
             </div>
@@ -107,7 +150,7 @@
     <div id="footer">
         <div class="container-fluid fixed-bottom bg-dark border-top border-info">
             <span>
-                <p class="text-muted text-center">&copy; Copyright</p>
+                <p class="text-muted text-center">&copy; Nicole Cooper-White</p>
             </span>
         </div>
 

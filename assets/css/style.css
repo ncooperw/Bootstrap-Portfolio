@@ -22,12 +22,41 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4 {
+/* h1, h2, h3, h4 {
     font-family: 'Galada', cursive;
-}
+} */
 #connect {
     padding: 8px 8px 0px 8px;
 }
-p {
-    font-family: 'Amiri', serif;
+.page-header {
+    border: solid 2px white;
 }
+i {
+   font-size:50px; 
+}
+.project-title {
+    color: white;
+    font-size: 32px;
+}
+.project-card {
+    height: 275px;
+    padding: 5px;
+
+}
+.card-img {
+    height: 150px;
+}
+.page-title {
+    padding: 10px;
+}
+
+.connectCard {
+    margin: 10px;
+}
+
+.card-header {
+    margin-bottom: 15px;
+}
+/* #contactButton {
+    margin-bottom:8px;
+} */

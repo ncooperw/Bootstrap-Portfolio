@@ -10,13 +10,15 @@
     <!-- Fonts-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
         crossorigin="anonymous">
-        
+
     <link href="https://fonts.googleapis.com/css?family=Amiri|Galada" rel="stylesheet">
 
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/solar/bootstrap.min.css">
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous"> -->
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -24,41 +26,41 @@
 <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-dark bg-dark">
         <div class="container">
-            <div class="page-header text-light bg-info logo">
-                <h1 class="text-center">Nicole Cooper-White</h1>
+            <div class="page-header text-light bg-dark logo">
+                <h1 class="Text-center">Nicole Cooper-White</h1>
             </div>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">About</a>
+                    <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link active" href="contact.html">Contact</a>
                 </li>
             </ul>
+        </div>
     </nav>
-    </div>
     <!--Main Container-->
-    <div class="container bg-light mt-3">
+    <div class="container bg-secondary mt-3">
         <div class="row ">
-            <div class="col-md-12">
-                <div class="page-header">
-                    <h2>About Me</h2>
-                </div>
+            <div class="col-md-12 card-header">
+                
+                    <h2 class="text-danger">About Me</h2>
+                
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-12 col-md-3">
                 <a>
-                    <img src="assets/images/me.jpg" class="img-fluid " alt="me ">
+                    <img src="assets/images/me.jpg" class="img-thumbnail" alt="me ">
                 </a>
             </div>
             <!-- <div class="row"> -->
-            <div class="col-sm-7">
+            <div class="col-sm-12 col-md-6 text-dark">
                 <p>My coding career began as an accident. It was 1999, I was a scared young adult about to graduate from college
                     with a degree in Psychology. During my last semester of college, I took a course in Teaching BioPsychology
                     and my professor decided that the teaching focus of the course was going to be through an online learning
@@ -71,13 +73,13 @@
                     This portfolio contains the steps along my journey.</p>
 
             </div>
-            <div class="col-sm-2">
-                <div class="card">
-                    <div class="card-heading">
-                        <h4 id="connect" class="card-title text-center">Let's Connect</h4>
+            <div class="col-sm-12 col-md-3">
+                <div class="card bg-dark">
+                    <div class="card-header">
+                        <h4 id="connect" class="card-title text-center text-primary">Let's Connect</h4>
 
                     </div>
-                    <div class="card-body text-center">
+                    <div class="card-body text-center connect-card">
                         <ul class="list-group list-inline">
                             <li class="list-group-item">
                                 <a href="https://github.com/ncooperw">
@@ -106,7 +108,7 @@
     <div id="footer">
         <div class="container-fluid fixed-bottom bg-dark">
             <span class="border-top border-info">
-                <p class="text-muted text-center">&copy; Copyright</p>
+                <p class="text-muted text-center">&copy; Nicole Cooper-White</p>
             </span>
         </div>
 
