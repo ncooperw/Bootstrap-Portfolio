@@ -25,6 +25,10 @@ a {
 /* h1, h2, h3, h4 {
     font-family: 'Galada', cursive;
 } */
+
+.container{
+    margin-bottom: 30px;
+}
 #connect {
     padding: 8px 8px 0px 8px;
 }
@@ -39,19 +43,19 @@ i {
     font-size: 32px;
 }
 .project-card {
-    height: 275px;
+    /* height: 275px; */
     padding: 5px;
 
 }
-.card-img {
+/* .card-img {
     height: 150px;
-}
+} */
 .page-title {
     padding: 10px;
 }
 
-.connectCard {
-    margin: 10px;
+.connect-card {
+    margin-bottom: 50px;
 }
 
 .card-header {
