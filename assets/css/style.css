@@ -26,9 +26,12 @@ a {
     font-family: 'Galada', cursive;
 } */
 
-.container{
-    margin-bottom: 30px;
+.mainContent {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
 }
+
 #connect {
     padding: 8px 8px 0px 8px;
 }
@@ -43,7 +46,7 @@ i {
     font-size: 32px;
 }
 .project-card {
-    /* height: 275px; */
+    height: 300px;
     padding: 5px;
 
 }
@@ -61,6 +64,6 @@ i {
 .card-header {
     margin-bottom: 15px;
 }
-/* #contactButton {
+#contactButton {
     margin-bottom:8px;
-} */
+}
